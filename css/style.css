@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Welcome-header {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Welcome-header__title {
+  margin-top: 62px;
+  font-size: 25px;
+}
+
+.Welcome-header__text {
+  margin-top: 40px;
+  margin-bottom: 150px;
+  width: 60%;
+  opacity: .4;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+
+.login-form  input {
+  padding: 15px 0;
+  border: none;
+  font-size: 17px;
+  border-bottom: 1px solid #A1A1A1;
+  margin-bottom: 25px;
+}
+
+.login-form input::placeholder {
+  color: #A1A1A1;
+}
+
+.login-form input[type=submit] {
+  background-color: #A1A1A1;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-form a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #727272;
+}
