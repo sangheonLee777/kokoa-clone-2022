@@ -1,0 +1,24 @@
+#friends-display-link {
+  position: relative;
+  display: block;
+  text-align: center;
+  background-color: #FAFAFA;
+  padding: 20px 0;
+  font-size: 17px;
+}
+
+#friends-display-link i {
+opacity: .2;
+}
+
+#friends-display-link :first-child {
+  position: absolute;
+  left: 130px;
+}
+
+#friends-display-link :last-child {
+  position: absolute;
+  right: 160px;
+}
+
+
