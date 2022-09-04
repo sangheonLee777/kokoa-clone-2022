@@ -2,11 +2,11 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #F9F9FA;
-  padding: 20px 50px;
+  background-color: #f9f9fa;
+  padding: 20px 45px;
   box-sizing: border-box;
-  border-top: 1px solid #DADADA;
-}  
+  border-top: 1px solid rgba(123, 123, 123, 0.171);
+}
 
 .nav__list {
   display: flex;
@@ -14,31 +14,31 @@
 }
 
 .nav__link {
-  color: #2E363E;
+  color: #2e363e;
   position: relative;
 }
 
 .nav__notification {
   background-color: tomato;
+  width: 20px;
+  height: 20px;
   display: flex;
+  border-radius: 10px;
   justify-content: center;
   align-items: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
   color: white;
   font-weight: 600;
   position: absolute;
-  left: 18px;
-  bottom: 18px;
+  left: 15px;
+  bottom: 15px;
 }
 
-.nav__redball {
+.dot {
+  width: 5px;
+  height: 5px;
   background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
   position: absolute;
-  left: 30px;
-
+  bottom: 30px;
+  right: -9px;
+  border-radius: 3px;
 }

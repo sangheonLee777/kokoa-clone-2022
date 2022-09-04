@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
 @import "reset.css";
+
 /* component */
 @import "component/status-bar.css";
 @import "component/nav-bar.css";
@@ -11,6 +12,7 @@
 @import "screen/friends.css";
 
 body {
+  color:  #2e363e;
   font-family: 'Open Sans', sans-serif;
   height: 1000vh;
 }

@@ -1,14 +1,16 @@
 #friends-display-link {
   position: relative;
-  display: block;
-  text-align: center;
-  background-color: #FAFAFA;
-  padding: 20px 0;
-  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 15px 0;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 #friends-display-link i {
-opacity: .2;
+  color: rgba(0, 0, 0, .3);
 }
 
 #friends-display-link :first-child {
@@ -18,7 +20,22 @@ opacity: .2;
 
 #friends-display-link :last-child {
   position: absolute;
-  right: 160px;
+  right: 135px;
 }
 
+.firends-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, .2);
+  padding-top: 15px;
+}
 
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, .5);
+}
+
+.friends-screen {
+  padding: 0 25px;
+}
