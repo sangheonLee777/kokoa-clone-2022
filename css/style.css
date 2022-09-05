@@ -6,13 +6,19 @@
 @import "component/nav-bar.css";
 @import "component/screen-header.css";
 @import "component/user-component.css";
+@import "component/badge.css";
 
 /* screen */
 @import "screen/login.css";
 @import "screen/friends.css";
+@import "screen/find.css";
 
 body {
   color:  #2e363e;
   font-family: 'Open Sans', sans-serif;
   height: 1000vh;
+}
+
+.main-screen {
+  padding: 0 25px;
 }

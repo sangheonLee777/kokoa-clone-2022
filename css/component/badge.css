@@ -1,0 +1,22 @@
+
+.badge{
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600; 
+}
+
+.findd {
+  width: 5px;
+  height: 5px;
+  background: tomato;
+  position: absolute;
+  border-radius: 3px;
+  top: 25px;
+  right: 17px;
+}

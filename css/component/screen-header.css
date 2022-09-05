@@ -4,6 +4,8 @@
   align-items: center;
   margin-top: 35px;
   padding: 25px;
+  margin-bottom: 15px;
+  position: relative;
 }
 
 .screen-header__title {
