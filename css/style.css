@@ -8,12 +8,15 @@
 @import "component/user-component.css";
 @import "component/badge.css";
 @import "component/icon-row.css";
+@import "component/alt-screen-header.css";
 /* screen */
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/find.css";
 @import "screen/more.css";
-
+@import "screen/settings-header.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
 body {
   color:  #2e363e;
   font-family: 'Open Sans', sans-serif;
